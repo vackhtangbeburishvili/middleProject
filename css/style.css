@@ -1,0 +1,566 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+/*აქედან*/
+
+div[class*="col-"]{
+
+  padding: 15px;
+}
+
+.container{
+
+  max-width: 1300px;
+  margin: 0 auto;
+
+}
+
+/*.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.col-1{
+   width: 8.33%;
+}
+.col-2{
+   width: 16.66%; 
+}
+.col-3{
+   width: 25%;
+}
+.col-4{
+   width: 33.33%;
+}
+.col-5{
+   width: 41.33%;
+}
+.col-6{
+   width: 50%;
+}
+.col-7{
+   width: 58.33%;
+}
+.col-8{
+   width: 66.66%;
+}
+.col-9{
+   width: 75%;
+}
+.col-10{
+   width: 83.33%;
+}
+.col-11{
+   width: 91.66%;
+}
+.col-12{
+   width: 100%;
+}
+*/
+/* აქამდე */
+
+
+
+
+
+header{
+  background-image: url("../images/car-service/mintosko.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.alert{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: blue;
+  height: 55px;
+ position: fixed;
+ z-index: 5;
+ top: 0;
+ left: 0;
+ right: 0
+
+}
+
+h4{
+  color: white;
+  text-align: center;
+  margin-left: 5px;
+  font-size: 20px;
+}
+
+.alert p{
+  color: white;
+  font-size: 17px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 55px;
+}
+
+ul{
+  display: flex;
+  list-style-type: none;
+}
+ul li a{
+color: white;
+margin-left: 15px;
+
+}
+
+.two-icons a{
+  margin-left: 15px;
+  color: white;
+}
+.two-icons i{
+  margin-right: 12px;
+  margin-left: 30px;
+}
+
+h1{
+  color: blue
+}
+.text-left p{
+  color: white;
+  font-size: 12px;
+}
+
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.text-right i{
+  color: white;
+  font-size: 20px;
+  margin-left: 15px;
+}
+.text-right p{
+  color: white;
+}
+.number{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.text-right h3{
+  color: white;
+  font-size: 20px;
+}
+.text-right{
+  display: flex;
+}
+
+.card-body{
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
+}
+
+button{
+  cursor: pointer;
+}
+
+button i{
+  margin-left: 5px;
+
+}
+.blue-text h5{
+  color: white;
+}
+
+.small-parent{
+  display: flex;
+  justify-content: space-around;
+}
+
+.toggle button{
+  color: blue;
+  background-color: transparent;
+}
+
+.text-break{
+  color: gray;
+}
+
+.button-phone{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.button-phone i{
+  font-size: 25px;
+  margin-left: 15px;
+}
+.button-phone h3{
+  font-size: 20px;
+}
+.button-phone .number{
+  margin-left: 15px;
+  display: flex;
+}
+
+.button-phone p{
+  margin-top: 0px;
+}
+
+
+.figure{
+border-radius: 30px;
+perspective: 1000px;
+}
+.figure img{
+  max-width: 100%;
+  vertical-align: top;
+  border-radius: 30px;
+}
+
+.three-card img{
+max-width: 100%;
+vertical-align: top;
+
+}
+
+
+.three-card h5{
+  text-align: center;
+}
+
+
+.three-card p{
+  text-align: center;
+  color: gray;
+}
+
+.two-card li{
+  color: black;
+  font-size: 20px; 
+  margin-left: 20px;
+}
+.two-card h2{
+  text-align: center;
+}
+
+.two-card p{
+  color: gray;
+  font-size: 17px; 
+  text-align: center;
+}
+ .blue-line{
+  width: 60px;
+  height: 5px;
+  background-color: blue;
+
+}
+
+
+.two-card{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  perspective: 1000px;
+}
+
+
+.auto-services h2{
+  text-align: center;
+  font-size: 35px;
+  color: black;
+}
+
+.auto-services{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.auto-services p{
+  color: gray;
+  text-align: center;
+}
+
+.four-card img{
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.four-card h3{
+  text-align: center;
+}
+
+.large-button{
+  display: flex;
+  justify-content: center;
+}
+
+.customers{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+
+
+.customers p{
+  color: gray;
+  text-align: center;
+}
+
+.customers h6{
+  color: gray;
+  text-align: center;
+}
+
+.customers h2{
+  color: black;
+  text-align: center;
+  font-size: 30px;
+}
+
+.gray{
+  background-color: #80808080;
+}
+
+.gray img{
+  max-width: 100%;
+  vertical-align: top;
+  height: 500px;
+  width: 1500px;
+}
+
+.three-icons-parent{
+  margin-top: 30px;
+}
+
+
+
+.three-icons{
+  margin-left: -305px;
+  height: 50px;
+  width: 50px;
+  background-color: #000000d6;
+  border-radius: 0 5px 5px 0;
+  margin-top: 3px;
+}
+
+
+.three-icons i{
+color: white;
+padding: 15px;
+}
+
+
+
+
+
+
+
+.mechanics{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+.mechanics-child{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.mechanics .btn{
+  background-color: transparent;
+  color: white;
+
+}
+
+ .mechanics-parent{
+  background-color: blue;
+  padding: 30px;
+}
+
+.mechanics i{
+  font-size: 25px;
+  position: absolute;
+  margin-left: -132px;
+  margin-top: 45px;
+  color: white;
+}
+.four-foto-img img{
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.four-foto-img{
+  display: flex;
+  margin-top: 0px;
+  
+}
+
+
+
+.frecuently-asked-questions{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.frecuently-asked-questions p{
+  text-align: center;
+  color: gray;
+}
+.frecuently-asked-questions h2{
+  font-size: 40px;
+}
+
+.col-md-8 .btn{
+  text-align: left;
+  height: 68px;
+  color: black;
+}
+.right-cards p{
+  color: gray;
+  text-align: left;
+} 
+.four-card-price p, h6, h5{
+  margin-top: -2px;
+  text-align: center;
+}
+.car-logo img{
+  padding: 30px;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+footer{
+  background-color: #000000d4;
+}
+
+del{
+  color: gray;
+}
+.center-button{
+  display: flex;
+  justify-content: center;
+}
+
+footer ul{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+footer li{
+  margin-left: 150px;
+color: white;
+}
+
+footer i{
+  margin-left: -70px;
+  font-size: 25px;
+  margin-top: 45px;
+  position: absolute;
+}
+
+footer .porto{
+  display: flex;
+  color: white;
+}
+
+.porto h6{
+text-align: left;
+}
+
+
+
+
+
+
+@media screen and (max-width:  768px){
+  .mechanics-child{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .mechanics h3{
+    text-align: center;
+  }
+  .alert{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130px;
+  
+  }
+  .two-icons{
+    display: flex;
+    flex-direction: column;
+  }
+  header .row{
+    display: flex;
+    flex-direction: column;
+  }
+  nav{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+  }
+  .text-center .nav{
+    flex-direction: column;
+  }
+   
+  header .links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer   ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  footer .porto{
+    display: flex;
+    flex-direction: column;
+  }
+  .card-body{
+    align-items: center;
+  }
+  .small-parent{
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+
+}
