@@ -458,9 +458,10 @@ padding: 15px;
 }
 .four-card-price p{
 	margin-top: 10px;
+	margin-bottom: 5px;
 }
 .four-card-price p, h6, h5{
-  margin-top: -2px;
+  
   text-align: center;
 }
 .four-card-price img{
