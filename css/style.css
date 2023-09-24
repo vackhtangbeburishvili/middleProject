@@ -306,6 +306,7 @@ align-items: center;
 .four-card img{
   max-width: 100%;
   vertical-align: top;
+  height: 200px;
 }
 
 .four-card h3{
