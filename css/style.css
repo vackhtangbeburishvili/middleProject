@@ -458,6 +458,10 @@ padding: 15px;
   margin-top: -2px;
   text-align: center;
 }
+.four-card-price img{
+	height: 200px;
+}
+
 .car-logo img{
   padding: 30px;
   max-width: 100%;
