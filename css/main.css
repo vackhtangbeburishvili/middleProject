@@ -1,0 +1,666 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+
+/*აქედან*/
+
+div[class*="col-"]{
+
+  padding: 15px;
+}
+
+.container{
+
+  max-width: 1300px;
+  margin: 0 auto;
+
+}
+
+.header-parent{
+display: flex;
+justify-content: space-between;
+}
+
+
+
+
+
+header{
+	background-color: white;
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	left: 0;
+	right: 0;
+	border-bottom: 2px solid black;
+	height: 90px;
+}
+
+
+
+
+.header-widget img{
+	height: 25px;
+}
+
+header ul li ul{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: white;
+	display: none;
+}
+
+
+
+
+.dropdown{
+	position: relative;
+}
+
+.dropdown:hover ul{
+	display: block;
+}
+
+#sub-menu{
+	 position: absolute;
+	 left: 0;
+	 min-width: 150px;
+}
+
+.dropdown ul li{
+	text-align: center;
+}
+
+
+
+header ul li ul li a{
+	color: gray;
+
+}
+
+
+
+
+
+header ul {
+	position: relative;
+	list-style-type: none;
+	display: flex;
+}
+
+header i{
+   margin-left: 5px;
+}
+header span{
+	position: absolute;
+	font-size: 11px;
+	margin-top: -12px;
+	margin-left: -14px;
+	color: gray;
+}
+
+header ul li .nav-link{
+color: black;
+margin-left: 20px;
+position: relative;
+font-size: 15px;
+}
+
+header ul li .nav-link i{
+	margin-top: 5px;
+	position: absolute;
+}
+
+.button-parent .dark{
+	border: none;
+	height: 35px;
+	width: 125px;
+	border-radius: 30px;
+}
+header .light{
+	background-color: unset;
+	border: none;
+	height: 40px;
+	width: 125px;
+}
+.button-parent{
+	position: relative;
+}
+.orange-moon i{
+	margin-left: 107px;
+	margin-top: 24px;
+	color: orange;
+	font-size: 17px;
+	position: absolute;
+}
+.search i{
+	margin-left: 150px;
+	margin-top: 24px;
+	font-size: 17px;
+	position: absolute;
+}
+
+
+header .small-line{
+	position: relative;
+}
+
+
+header .small-line i{
+position: absolute;
+transform: rotate(90deg);
+margin-left: 129px;
+margin-top: -28px;
+}
+
+
+ .two-card .col-md-6{
+	margin-top: 150px;
+}
+
+.two-card .card{
+	padding:  300px 200px;
+}
+
+.two-card span {
+	color: black;
+}
+
+.two-card .post-author-label{
+	color: #25323ee6;
+  
+}
+
+.two-card .published{
+	color: #25323ee6;
+ margin-left: 20px;
+}
+
+.two-card  h3 a {
+	color: black;
+	font-size: 40px;
+}
+
+
+ .two-card h4{
+	font-size: 35px;
+	color: gray;
+}
+
+.two-card  .gold a {
+  background-color: #d39e00ad;
+  padding: 3px 30px 3px 3px;
+  margin-left: 20px;
+  color: white;
+}
+
+.big-card-left i{
+	margin-top: -1px;
+	margin-left: 3px;
+	position: absolute;
+
+}
+ .two-card .parent{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+}
+
+.two-card .line{
+	height: 1px;
+	width: 100%;
+	background-color: black;
+}
+
+.two-card h3{
+	font-size: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.two-card ul{
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+}
+
+.two-card ul li{
+	width: 13.5%;
+
+}
+
+.two-card ul li:not(:last-child){
+	margin-right: 15px;
+}
+
+.two-card ul li button{
+	border: 2px solid gray;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 100%;
+    padding: 40px 10px 21px 10px;
+}
+
+.two-card ul li button:hover{
+	background-color: #d39e00ad;
+}
+
+.black-section .white-line{
+	height: 1px;
+	width: 100%;
+	background-color: white;
+	margin-top: 50px;
+}
+img{
+	max-width: 100%;
+	vertical-align: top;
+	object-fit: cover;
+}
+
+.black-section h3{
+	font-size: 20px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: white;
+}
+
+.black-section .card{
+	margin-left: 30px;
+	border: none;
+	position: relative;
+}
+.black-section .card-body{
+	background-color: black;
+	color: white;
+
+}
+
+
+
+
+
+
+
+
+
+.black-section .small-line{
+	height: 1px;
+	width: 390px;
+	background-color: gray;
+	transform: rotate(90deg);
+	position: absolute;
+	margin-top: 195px;
+	margin-left: 137px;
+}
+.black-section .second-small-line{
+	height: 1px;
+	width: 390px;
+	background-color: gray;
+	transform: rotate(90deg);
+	position: absolute;
+	margin-top: 195px;
+	margin-left: 455px;
+}
+
+.black-section .third-small-line{
+	height: 1px;
+	width: 390px;
+	background-color: gray;
+	transform: rotate(90deg);
+	position: absolute;
+	margin-top: 195px;
+	margin-left: 772px;
+}
+
+.black-section{
+   background-color: black;
+}
+
+.black-section button{
+border: none;
+background-color: transparent;
+color: white;
+font-size: 12px;
+}
+
+.black-section .card-text a{
+cursor: pointer;
+color: white;
+font-size: 20px;
+}
+
+.black-section h5{
+	font-size: 12px;
+}
+
+
+ .second-two-card .logo img{
+	height: 35px;
+}
+
+  .second-two-card .average-line{
+	width: 100%;
+	height: 1px;
+    background-color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.second-two-card h3{
+	font-size: 34px;
+	color: black;
+}
+.second-two-card form{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.second-two-card ul{
+list-style-type: none;
+}
+
+.second-two-card input{
+	height: 70px;
+	text-align: center;
+}
+
+.second-two-card button{
+	height: 70px;
+	width: 195px;
+	background-color: black;
+	color: white;
+}
+.second-two-card img{
+height: 400px;
+}
+.col-md-6{
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+ .line{
+	height: 1px;
+	width: 100%;
+	background-color: black;
+}
+h3{
+	font-size: 20px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+  .second-card-body  h5.card-title{
+	font-size: 17px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.second-card-body  .card-text a{
+	color: black;
+	font-size: 20px;
+	text-align: center;
+}
+ .col-md-4 .card{
+	border: none;
+}
+
+.second-card-body  h4{
+color: gray;
+font-size: 18px;
+
+}
+
+.second-card-body button{
+	border: none;
+	background-color: unset;
+}
+
+ .second-card-body .second-card-text a{
+	font-size: 14px;
+     background-color: black;
+     color: white; 
+}
+
+
+.second-card-body .second-card-text a:hover{
+     background-color:#d39e00ad;
+}
+
+ .three-card .three-small-line {
+    height: 1px;
+    width: 525px;
+    background-color: gray;
+    transform: rotate(90deg);
+    position: absolute;
+    margin-top: 427px;
+    margin-left: 169px;
+}
+
+.three-card .second-three-small-line {
+    height: 1px;
+    width: 525px;
+    background-color: gray;
+    transform: rotate(90deg);
+    position: absolute;
+    margin-top: 427px;
+    margin-left: 603px;
+}
+
+
+
+.three-card{
+	position: relative;
+}
+
+
+
+ .one-foto .row{
+  	align-items: center;
+  }
+
+ .one-foto button{
+ 	border: none;
+ 	background-color: unset;
+ } 
+
+
+.one-foto p a{
+    background-color: black;
+    padding: 3px 30px 3px 3px;
+    margin-left: 20px;
+    color: white;
+}
+
+.one-foto p a:hover{
+	background-color: #d39e00ad;
+}
+
+
+.one-foto span a{
+	font-size: 35px;
+	color: black;
+}
+
+.one-foto span a:hover{
+background-color: gray;
+}
+
+.one-foto h2{
+	color: gray;
+	font-size: 25px;
+}
+
+.one-foto .col-md-8, .col-md-4{
+	margin-top: 50px;
+}
+
+
+.second-three-card .three-small-line, .second-three-small-line{
+	 height: 1px;
+    width: 525px;
+    background-color: gray;
+    transform: rotate(90deg);
+    position: absolute;
+    margin-top: 327px;
+    margin-left: 169px;
+}
+
+.second-three-card .second-three-small-line{
+	height: 1px;
+    width: 525px;
+    background-color: gray;
+    transform: rotate(90deg);
+    position: absolute;
+    margin-top: 327px;
+    margin-left: 603px;
+}
+
+
+.footer-line{
+	height: 1px;
+	width: 100%;
+	background-color: black;
+}
+
+#blog-pager a, i{
+	color: gray;
+	margin: 50px 0 50px 0;
+}
+
+footer img{
+	height: 35px;
+}
+
+footer p{
+	color: gray;
+	margin-top: 20px;
+}
+
+footer h3{
+	color: gray;
+	font-size: 15px;
+}
+
+footer .row{
+align-items: baseline;
+}
+
+footer ul{
+	list-style-type: none;
+}
+
+footer a{
+	color: gray;
+}
+
+footer a:hover{
+	color: gray;
+}
+
+
+.bottom img{
+	height: 17px;
+}
+
+.bottom-parent{
+	display: flex;
+	flex-direction: row;
+}
+
+.bottom ul{
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+}
+.bottom li{
+	margin-left: 15px;
+}
+
+.bottom a{
+	color: gray;
+	font-size: 10px;
+}
+
+	.copyright{
+		color: gray;
+		font-size: 10px
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:  768px){
+  
+
+
+header .header-parent{
+	flex-direction: column;
+}
+
+header .nav{
+	display: flex;
+	flex-direction: column;
+}
+
+.two-card ul{
+	display: flex;
+	flex-direction: column;
+}
+.second-two-card form{
+	display: flex;
+	flex-direction: column;
+}
+
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
